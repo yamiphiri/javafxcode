@@ -5,7 +5,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
-public class MyJavaFX extends Application {
+public class basicJavaFX extends Application {
 	@Override // Override the start method in the Application class
 	public void start(Stage primaryStages){		
 		Button btOK = new Button("OK");
