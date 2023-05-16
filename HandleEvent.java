@@ -38,7 +38,7 @@ import javafx.event.EventHandler;
         System.out.println("OK button clicked");
     }
 }
- class CancelHandlerClass implements EventHandler<ActionEvent> {
+class CancelHandlerClass implements EventHandler<ActionEvent> {
      @Override
     public void handle(ActionEvent e) {
         System.out.println("Cancel button clicked");
